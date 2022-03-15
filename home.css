@@ -1,0 +1,418 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Ubuntu:wght@300&display=swap');
+*
+{
+    text-decoration: none;
+    color:inherit;
+   
+}
+body{
+    margin: 0px;
+}
+.header
+{
+    width: 100%;
+    height: 59px;
+    background-color: white;
+    
+   
+
+  
+    
+}
+.left-header
+{
+    width: 50%;
+    height: 60px;
+    
+    float: left;
+}
+.logo
+{
+   width: 34px;
+   height: 49px;
+   margin-left: 68px;
+   margin-top: 10px;
+   transition: transform .5s;
+}
+.logo:hover{
+    
+    transform: scale(1.1);
+}
+.other
+{
+    float: left;
+    text-decoration: none;
+    color:#3d4152;
+    font-weight: 300;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    font-size: 13px;
+    
+    
+    border-bottom: 2px solid #3d4152;
+}
+.other:hover{
+    
+    color: #fb823f;
+    border-color:#fb823f ;
+   
+}
+.location :hover  {
+   
+    color: #3d4152;
+    
+   
+}
+.logo1
+{
+    float: left;
+}
+.location-details
+{
+    float: left;
+    text-decoration: none;
+    color:#686b7895;
+    font-weight: 300;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    font-size: 13px;
+    width: 211.328px;
+    height: 16.797px;
+    
+   
+}
+.location-details:hover
+{
+    color: #3d4152;
+
+}
+.left-location
+{
+    margin: 27px 24px;
+    float: left;
+    width: 280.34px;
+    height: 30px;
+}
+.right-header
+{
+    width: 49%;
+    height: 60px;
+    
+    float: left;
+}
+.right-inner
+{
+    margin-left: 3px;
+    margin-top: 22px;
+    text-decoration: none  ;
+    font-size: 14px;
+
+    font-family: 'Fredoka', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    
+    color: #404354;
+}
+.right-inner:hover
+{
+    color: #f57a36;
+}
+.search
+{
+width: 20%;
+
+}
+.offers
+{
+width: 20%;
+margin-left: 80px;
+}
+.help
+{
+width: 20%;
+margin-left: 80px;
+}
+.signin
+{
+width: 20%;
+margin-left: 60px;
+}
+.cart
+{
+width: 20%;
+margin-left: 80px;
+}
+
+.new
+{
+    font-size: 8px;
+    position: absolute;
+    color: #fb823f;
+}
+.special
+{   
+    float: left;
+margin-top: 10px;
+    width: 100%;
+    height: 350px;
+    background-color: #171a29;
+}
+.img
+{
+    float: left;
+    width: 260px;
+    height: 260px;
+    margin: 54px 69px;
+    transition: transform .5s;
+    
+}
+.img:hover
+{
+    transform: scale(1.05);
+}
+
+.img2
+{
+    float: left;
+    width: 260px;
+    height: 260px;
+    margin: 54px -19px;
+    transition: transform .5s;
+}
+.img2:hover
+{
+    transform: scale(1.05);
+}
+.img3
+{
+    float: left;
+    width: 260px;
+    height: 260px;
+    margin: 54px 67px;
+    transition: transform .5s;
+}
+.img3:hover
+{
+    transform: scale(1.05);
+}
+.img4
+{
+    float: left;
+    width: 260px;
+    height: 260px;
+    margin: 54px -10px;
+    transition: transform .5s;
+}
+.img4:hover
+{
+    transform: scale(1.05);
+}
+.button
+{
+    background-color: #ffffff;
+  border: none;
+  color: #535665;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  width: 47px;
+  height: 47px;
+  
+    
+}
+.button1{
+    border-radius: 50%; 
+    margin-top: 157px;
+}
+.arrow
+{
+    margin: -7px 0px 0px -8px;
+    transition: transform .7s;
+}
+.arrow:hover{
+    transform:translate(50%,5%);
+}
+.list-head
+{
+    float: left;
+    width: 1200px;
+    height: 72px;
+    border-bottom: 1px solid #e9e9eb;
+    border-bottom-width: 75%;
+    margin-left: 62px;
+}
+.list-head-left
+{
+   float: left;
+    width: 35%;
+   font-weight: 600;
+    font-size: 28px;
+    margin-top: 27px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    
+}
+.list-head-right
+{
+    float: left;
+    width: 65%;
+    display: block;
+    font-weight: 300;
+    font-size: 16px;
+   margin-top: 38px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    letter-spacing: 0;
+    color: #aabedd;
+    
+}
+
+.relevence1
+{
+    float: left;
+    width: 73.38px;
+    height: 18px;
+    margin-left: 35px;
+   
+    
+}
+.list-head-right :hover
+{
+    color: #404354;
+}
+.relevence2
+{
+    float: left;
+    width: 97.17px;
+    height: 19.19px;
+    margin-left: 35px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.relevence3
+{
+    float: left;
+    width: 44.47px;
+    height: 19.19px;
+    margin-left: 35px;
+}
+.relevence4
+{
+    float: left;
+    width: 128.52px;
+    height: 19.19px;
+    margin-left: 35px;
+}
+.relevence5
+{
+    float: left;
+    width: 128.52px;
+    height: 19.19px;
+    width: 16%;
+    margin-left: 35px
+}
+.relevence6
+{
+    float: left;
+    width: 91.83px;
+    height: 30px;
+    margin-left: 35px;
+}
+
+.filter-word
+{
+    float: left;
+    width: 43.83px;
+    height: 19.19px;
+    
+}
+.button2
+{
+    border: 2px solid tomato;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: -4px 9px;
+}
+.icon2
+{
+    margin-left: -2px;
+    transform: rotate(90deg);
+    width: 20px;
+    height: 20px;
+}
+.rest
+{margin-top: 10px;
+   
+    float: left;
+    width: 1250px;
+    height: 1598.13px;
+    display: block;
+    margin-left: 59px;
+
+}
+.rest-1,.rest-2,.rest-3,.rest-4
+{
+   
+    
+    margin-top: 10px;
+    float: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 57px;
+    width:250px;
+    height: 280px;
+    border: 0.5px solid #ffffff;
+    margin-left: 9.5px;
+   
+}   
+
+
+
+
+.rest-1:hover,.rest-2:hover,.rest-3:hover,.rest-4:hover
+{
+    border: 0.5px solid #d3d5df;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    
+    
+   
+
+}
+.rest1-inner
+{
+    margin: 24px 20px;
+}
+.card {
+   
+    
+    width: 254px ;
+    height: 315px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  
+  
+  .container {
+    padding: 2px 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+  }
+  .rest1-img{
+      width: 254px;
+      height: 160px;
+      font-family: 'Ubuntu', sans-serif;
+  }
+  .card-rating
+  {
+      color: white;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 300;
+      background-color:#49c479;
+      font-size: 12px;
+  }
+
+  
+ 
